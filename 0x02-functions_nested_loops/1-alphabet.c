@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -10,10 +10,10 @@ int main(void)
 char n;
 
 for (n = 'a'; n <= 'z'; n++)
-
-putchar(n);
-
-putchar('\n');
+{
+_putchar(n);
+}
+_putchar('\n');
 
 return (0);
 
