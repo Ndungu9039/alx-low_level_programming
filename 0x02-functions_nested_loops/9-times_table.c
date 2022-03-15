@@ -5,7 +5,7 @@
  *
  * Return: times table
  */
-void times_table(void);
+void times_table(void)
 {
 int rone, cone, d;
 
