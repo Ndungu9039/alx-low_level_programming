@@ -21,7 +21,6 @@ if (i == 49)
 printf("%ld\n", fibonacci[i]);
 else
 printf("%ld", fibonacci[i]);
-sum += fibonacci[i];
 }
 
 return (0);
