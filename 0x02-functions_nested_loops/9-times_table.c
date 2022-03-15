@@ -5,8 +5,6 @@
  *
  * Return: times table
  */
-int main()
-{
 void times_table(void);
 {
 int rone, cone, d;
@@ -37,6 +35,4 @@ _putchar(' ');
 }
 _putchar('\n');
 }
-}
-return (0);
 }
