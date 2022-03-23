@@ -4,6 +4,7 @@
 /**
  * *cap_string - capitalizes all words
  * @s: pointer to char parameters
+ *
  * Return: *s
  */
 
