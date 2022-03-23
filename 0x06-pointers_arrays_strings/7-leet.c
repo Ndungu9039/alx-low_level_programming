@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *leet - encodes a string into 1337
+ * *leet - encodes a string
  * @s: pointer to char parameters
  * Return: *s
  */
@@ -10,7 +10,7 @@ char *leet(char *s)
 {
 int i;
 int j;
-char l[] = "ol_ea_t";
+char l[] = "ol_ea__t";
 
 for (i = 0; s[i] != '\0'; i++)
 {
