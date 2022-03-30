@@ -31,7 +31,7 @@ return (1);
  * Return: recursion
  */
 
-int is_primenumber(intn)
+int is_prime_number(int n)
 {
 if ((!(n % 2) && n != 2) || n < 2)
 {
