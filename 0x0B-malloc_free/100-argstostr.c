@@ -3,12 +3,12 @@
 
 /**
  * *argstostr - concatenates all arguments of the program into a string;
- * 		arguments are separated by a new line in the string.
+ *              arguments are separated by a new line in the string.
  * @ac: the no of arguments passed to the program
  * @av: an array of pointers to the arguments.
  *
  * Return: if ac == 0, av == NULL, or the function fails - NULL;
- * 	   Otherwise - a pointer to the new string.
+ *         Otherwise - a pointer to the new string.
  */
 
 char *argstostr(int ac, char **av)
