@@ -40,7 +40,7 @@ if (str == NULL || *str == '\0')
 return (NULL);
 n = wrdcnt(str);
 if (n == 1)
-return (NULL):
+return (NULL);
 x = (char **)malloc(n *sizeof(char *));
 if (x == NULL)
 return (NULL);
