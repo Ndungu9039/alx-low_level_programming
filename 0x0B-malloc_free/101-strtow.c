@@ -26,7 +26,7 @@ return (n);
 }
 
 /**
- * **strow - splits a string into words
+ * **strtow - splits a string into words
  * @str: string
  * Return: pointer to an array of strings
  */
