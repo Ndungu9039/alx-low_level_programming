@@ -36,7 +36,7 @@ free(ptr);
 return (NULL);
 }
 
-ptr_copy = ptr;
+*ptr_copy = ptr;
 mem = malloc(sizeof(*ptr_copy) * new_size);
 
 if(mem == NULL)
